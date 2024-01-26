@@ -1,11 +1,10 @@
 {
   "name": "hello-electron",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "devDependencies": {
+    "electron": "^28.2.0"
   }
 }
