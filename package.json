@@ -2,9 +2,11 @@
   "name": "hello-electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --platform=win32 --arch=x64 --prune=true --out=dist"
   },
   "devDependencies": {
-    "electron": "^28.2.0"
+    "electron": "^28.2.0",
+    "electron-packager": "^17.1.2"
   }
 }
