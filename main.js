@@ -1,4 +1,4 @@
-// main.js
+// from: https://www.electronjs.org/ja/docs/latest/tutorial/quick-start
 
 // このモジュールはアプリケーションの生き死にを制御し、ネイティブブラウザウインドウを作成します
 const { app, BrowserWindow } = require('electron')
